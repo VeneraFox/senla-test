@@ -5,6 +5,6 @@ public class Task_6 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Введите текст: ");
         String text = sc.nextLine();
-        System.out.print("Исправленый текст: " + text.replaceAll("\\d", ""));
+        System.out.print("Исправленный текст: " + text.replaceAll("[0-9]", ""));
     }
 }

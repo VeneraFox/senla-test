@@ -11,8 +11,8 @@ public class Task_4 {
         System.out.println("НОК: " + nok(a,b));
     }
 
-    static int nod(int a,int b){
-        return b == 0 ? a : nod(b,a % b);
+    static int nod(int a,int b) {
+        return b == 0 ? a : nod(b, a % b);
     }
 
     static int nok(int a,int b){
